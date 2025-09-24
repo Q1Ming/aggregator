@@ -65,7 +65,7 @@ jobs:
           fi
 
       - name: Collect
-        run: python -u subscribe/collect.py -n 64 -p 2 -f 200 -l 48 -d 3000 --chuck -u https://clients3.google.com/generate_204 -t clash --overwrite --all
+        run: python -u subscribe/collect.py -n 64 -p 30 -f 200 -l 48 -d 3000 --chuck -u https://clients3.google.com/generate_204 -t clash --overwrite --all
 
       - name: Timestamp
         run: date
